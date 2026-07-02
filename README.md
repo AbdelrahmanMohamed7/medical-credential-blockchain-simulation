@@ -74,9 +74,3 @@ Upon successful execution, the runtime logs trace the data-lifecycle mechanics w
 5. **Merkle Root Consolidation**: Compiles a unified verification signature from a transaction array.
 6. **Payload Confidentiality**: Exercises the AES encrypt/decrypt cycle to prove medical record data obfuscation.
 7. **Signature Authentication**: Processes the dataset through public/private key filters to return a programmatic validity confirmation.
-
----
-
-## 📄 Documentation
-
-For an exhaustive exploration of the data-management methodology, underlying industry problems solved, and structural flow charts governing this approach, please refer to the **`Proposal Report.pdf`** document included in the repository.
