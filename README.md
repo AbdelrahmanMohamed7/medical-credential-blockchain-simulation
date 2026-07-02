@@ -1,16 +1,9 @@
-# Medical Staff Credential Verification - Core Blockchain Simulation
-
+Medical Staff Credential Verification - Core Blockchain Simulation
 A cryptographic, from-scratch simulation of a decentralized blockchain ledger architecture engineered to securely manage, verify, and audit healthcare staff operational records (such as doctor licenses, practice certifications, and institutional roles).
-
 This system is built entirely in native Java to demonstrate fundamental cryptographic primitives, payload confidentiality, and distributed ledger integrity without relying on heavy third-party framework layers.
-
----
-
-## 🏗️ Architectural Data Flow Breakdown
-
+🏗️ Architectural Data Flow Breakdown
 The application uses an immutable block structure combined with dual asymmetric and symmetric security utilities to guarantee that credential records remain verifiable and tamper-proof.
-
-```text
+Plaintext
 [ Raw Credential Data ] ──► Encrypted via AES-128 (AESUtility)
                                    │
                                    ▼
@@ -35,7 +28,7 @@ A standard terminal or command-line interface window.
 Open your terminal application, navigate directly into the root directory containing your source code components, and compile the Java cluster:
 Bash
 javac *.java
-2. Run the Simulation Runtime
+2. Execute the Simulation Runtime
 Launch the compiled main method sequence to display the real-time cryptographic verification log tree:
 Bash
 java MainApplication
@@ -45,6 +38,6 @@ Identity Key Generation: Safely produces the public/private RSA pair objects.
 Genesis Chain Activation: Deploys Block 0 (the fixed network root anchor) and calculates its unique validation hash.
 Linear Block Linking: Instantiates Block 1, dynamically baking Block 0's specific hash index into its pointer framework.
 Chain State Auditing: Audits hash integrity between blocks to demonstrate immediate detection of unauthorized structural modifications.
-Merkle Root Consolidation: Iterates through an experimental transactional array block (Data1 through Data4) and compiles a unified Merkle verification root signature.
+Merkle Root Consolidation: Iterates through an experimental transactional array block and compiles a unified Merkle verification root signature.
 Payload Confidentiality Check: Exercises the AES encrypt/decrypt lifecycle loop to prove medical record data obfuscation and recovery parameters.
 Signature Authentication Loop: Signs the operational dataset with a secure private key and processes it against public key filters to return a standard programmatic boolean validity confirmation.
